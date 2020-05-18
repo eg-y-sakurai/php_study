@@ -1,0 +1,52 @@
+.detail h2 {
+  font-size: 15px;
+  font-weight: 900;
+}
+.detail div {
+  font-size: 20px;
+  border-bottom: solid 1px gray;
+  margin-bottom: 40px;
+}
+.detail .title {
+  font-size: 30px;
+}
+.detail .memo {
+  background: #eee;
+  padding: 2px 5px;
+}
+.new-line {
+  white-space: pre-wrap;
+}
+.btnWrapper {
+  text-align: center;
+}
+.editBtn {
+  display: block;
+  padding: 12px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 21px;
+  background: #0072bc;
+  color: #fff;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  opacity: 1;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+.editBtn:hover {
+  opacity: 0.7;
+}
+.deleteBtn {
+  display: inline-block;
+  color: red;
+  padding: 15px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+.deleteBtn:hover {
+  opacity: 0.7;
+}
